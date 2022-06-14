@@ -1,7 +1,7 @@
 body {
-    overflow: hidden;
+    
     height: 100%;
-
+    width: auto;
     font-size: 20px;
     text-align: center;
     text-shadow: 1px 1px 1px aquamarine, -1px -1px 1px red, 0px 0px 3px white;
@@ -26,42 +26,56 @@ ul li a:hover{
     color: red;
 }
 h1 {
+    position: absolute;
+    top:80px;
+    width: 20vw;
+    left: 40vw;
+    font-size: 24px;
     margin: 0px;
     padding: 0px;
 }
-h2 {
-    padding-top:10vh;
-    margin: auto;
-}
-h1 {
-    margin: 0px;
-    padding: 0px;
-}
-h2 {
-    padding-top:10vh;
-    margin: auto;
-}
+
 .game {
     position: absolute;
-    top: 10vh;
+    top: 150px;
     left: 15vw;
     z-index: 1;
-    height: 40vh;
+    height: 300px;
     width: 70vw;
-    background: url(color-game.jpg);
-    background-size: cover;
-    background-color: transparent;
-    opacity: 50%;
+    opacity: 65%;
+    overflow: hidden;
 }
+.level {
+    position: absolute;
+    top: 160px;
+    left: 60vw;
+    z-index: 2;
+    height: 128px;
+    width: 128px;
+}
+
 .hero {
     position: absolute;
     top: 30vh;
     left: 15vw;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    background: url(rikka-run.gif) no-repeat;
-    background-size: 20vh;
+    z-index: 3;
+    height: 128px;
+    width: 128px;
+}
+.score {
+    position: absolute;
+    top: 100px;
+    right: 30vw;
+    font-size: 16px;
+}
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    z-index: -1;
+    width: 100vw;
+    overflow: hidden;
 }
 .background-css {
     position: absolute;

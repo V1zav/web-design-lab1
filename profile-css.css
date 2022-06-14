@@ -75,7 +75,7 @@ table {
 
 tfoot {
     width: 100%;
-    height: 100%;
+    height: 20vh;
 }
 tfoot tr{
     width: 100%;
